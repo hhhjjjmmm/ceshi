@@ -13,7 +13,7 @@ public class JsoupDemo {
         try {
             //通过jsoup 的Connect获取document类
             Document document=Jsoup.connect("http://www.haie.edu.cn/xyxw.htm").get();
-            System.out.println("打印网页标题:"+document.title());
+            System.out.println("打印网页标题aa:"+document.title());
             //根据class获取Element类
             Elements elements=document.getElementsByClass("c125126");
             Elements elements1=document.getElementsByClass("timestyle125126");
